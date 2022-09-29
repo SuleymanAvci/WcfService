@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="5aedeaf9-94c6-445b-9e63-d93dcbe3e41a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52566/KurService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="KurService.xsd" MetadataType="Schema" ID="9e9e9cb4-4823-4d4f-9d46-c87ad6b089e7" SourceId="1" SourceUrl="http://localhost:52566/KurService.svc?xsd=xsd0" />
+    <MetadataFile FileName="KurService.wsdl" MetadataType="Wsdl" ID="2528e661-0949-48df-b86a-7686f4fe0ffd" SourceId="1" SourceUrl="http://localhost:52566/KurService.svc?wsdl" />
+    <MetadataFile FileName="KurService.disco" MetadataType="Disco" ID="f1c826e1-b02a-43e8-bb41-a78dde9c5ff3" SourceId="1" SourceUrl="http://localhost:52566/KurService.svc?disco" />
+    <MetadataFile FileName="KurService1.xsd" MetadataType="Schema" ID="59b49253-f78a-4ddb-a6ca-67c33ecf5229" SourceId="1" SourceUrl="http://localhost:52566/KurService.svc?xsd=xsd1" />
+    <MetadataFile FileName="KurService2.xsd" MetadataType="Schema" ID="17a09d4d-a70b-4c91-b34d-0fa221a959d6" SourceId="1" SourceUrl="http://localhost:52566/KurService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
