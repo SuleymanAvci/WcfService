@@ -10,10 +10,27 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 </head>
-<body> 
-    <div> 
-        <label> Para Birimi Seçiniz </label>
-    </div>
-    
+<body>
+    @using (Html.BeginForm("Kurgetir", "Home", FormMethod.Post, null))
+    {
+
+        <div>
+            <label> Para Birimi Seçiniz </label>
+        </div>
+        <div>
+            <select name="paraBirimi">
+                @foreach (var prmBirim in Model)
+                {
+                    <option>@prmBirim</option>
+                }
+            </select>
+        </div>
+        <div>
+            <input type="submit" name="name" value="Kurları Getir" />
+        </div>
+        <div>
+            @Html.Partial("KurlarListesi", (List<double>)ViewBag.Kurlar)
+        </div>
+    }
 </body>
 </html>
